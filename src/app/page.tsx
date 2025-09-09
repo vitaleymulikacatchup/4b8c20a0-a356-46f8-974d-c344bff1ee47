@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
@@ -23,10 +23,6 @@ export default function Home() {
           { name: 'Tokenomics', id: 'tokenomics' },
           { name: 'Footer', id: 'footer' },
         ]}
-        className=""
-        buttonClassName=""
-        buttonBgClassName=""
-        navItemClassName=""
       />
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <FrameHero
@@ -67,10 +63,6 @@ export default function Home() {
           ]}
           copyrightText="© PawCoin 2023"
           onPrivacyClick={() => {}}
-          className=""
-          containerClassName=""
-          logoClassName=""
-          columnsClassName=""
         />
       </div>
     </SiteThemeProvider>
