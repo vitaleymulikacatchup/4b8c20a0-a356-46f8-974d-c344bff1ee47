@@ -6,7 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
-import { LucideCoin, LucideChart, LucideShield } from 'lucide-react';
+import { LucideShield } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -46,8 +46,8 @@ export default function Home() {
           title="Tokenomics"
           description="Understand how PawCoin functions within the ecosystem."
           kpiItems={[
-            { value: "1M", description: "Total Supply", longDescription: "Maximum supply of PawCoins", icon: LucideCoin },
-            { value: "500K", description: "Market Cap", longDescription: "Current market valuation of PawCoin", icon: LucideChart },
+            { value: "1M", description: "Total Supply", longDescription: "Maximum supply of PawCoins", icon: LucideShield },
+            { value: "500K", description: "Market Cap", longDescription: "Current market valuation of PawCoin", icon: LucideShield },
             { value: "2%, 5%, 10%", description: "Transaction Taxes", longDescription: "Tax rates on transactions", icon: LucideShield },
           ]}
         />
